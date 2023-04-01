@@ -1,4 +1,5 @@
 
+
 function ativaLetra(elemento) {
     const arrTexto = elemento.innerHTML.split('');
     elemento.innerHTML = '';
@@ -11,3 +12,10 @@ function ativaLetra(elemento) {
 
 const titulo = document.querySelector('.digitando');
 ativaLetra(titulo);
+
+const ativaMenu = document.querySelector('.fa-bars');
+
+ativaMenu.addEventListener('click', ()=>{
+    ativaMenu.classList.toggle('fa-x')
+})
+

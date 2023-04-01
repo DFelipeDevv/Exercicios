@@ -6,36 +6,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
 <body>
-    
+
     <header>
         <h1>Daniel <span>Felipe</span></h1>
         <nav>
-            <ul class="navegacao-primaria">
+            <ul class="navegacao-primaria" aria-label="Navegação primária">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>-
+                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#resumo">Resumo</a></li>
                 <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#orcamento">Orçamento</a></li>
                 <li><a href="#contato">Contato</a></li>
+
             </ul>
+
         </nav>
+
+        <i class="fa-solid fa-bars"></i> /* barras responividade */
+
     </header>
     <section aria-label="seção curriculo download Felipe" class="section-div">
         <div>
             <h2>Bem-vindo! Eu sou </h2>
             <h3 class="digitando">Desenvolvedor Web e UI/UX Designer</h3>
-            <p>Formado em Análise e Desenvolvimento de Sistemas, especializado em sistemas para web e integração da web com banco de dados, desenvolvo soluções práticas e eficientes para o bom funcionamento do seu site e/ou negócio.</p>
+            <p>Formado em Análise e Desenvolvimento de Sistemas, especializado em sistemas para web e integração da web
+                com banco de dados, desenvolvo soluções práticas e eficientes para o bom funcionamento do seu site e/ou
+                negócio.</p>
             <a href="#">Download CV</a>
         </div>
         <img src="images/fotocontent.jpg" alt="ilustrativa imagem de uma pessoa" />
-
     </section>
-    <script src="script.js"></script>
+    <main>
+        <article aria-label="seção sobre mim" class="sobre">
+            <div class="sobre_titulo">
+
+                <h1>Sobre Mim</h1>
+                <p>Perfil Profissional - Aqui está tudo sobre mim</p>
+                <div aria-label="Seção apenas de ilustrações de botões">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <img src="images/fotocontent.jpg" alt="Imagem de uma pessoa ilustrativa" />
+            <div class="sobre_conteudo">
+                <div class="sobre_texto">
+                    <h1>Eu sou Daniel Felipe</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima corporis maxime sit
+                        inventore mollitia veniam voluptates voluptatum ratione! Explicabo architecto reprehenderit
+                        cumque consequatur ipsa qui nulla quibusdam mollitia eveniet!
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti expedita sunt eaque
+                        laboriosam exercitationem, explicabo possimus neque quibusdam asperiores sed vel veritatis eius
+                        dignissimos aliquam beatae qui, deleniti a tempore?
+                    </p>
+                </div>
+                <div class="sobre_info">
+                    <p><i class="fa-solid fa-calendar-days"></i>Data de nascimento: 21 nov 1986</p>
+                    <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Freelance: Disponível</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Endereço: Brasília/DF</p>
+                    <p><i class="fa-sharp fa-solid fa-globe"></i>Idiomas: Português, Inglês</p>
+                    <p><i class="fa-solid fa-flag"></i>Nacionalidade: Brasileiro</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>Telefone: +55 (61) 99204-5617</p>
+                    <p><i class="fa-solid fa-envelope"></i>E-mail: dfelipedev@gmail.com</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section class="services">
+        <div class="sobre_titulo">
+            <h1>Skills</h1>
+            <p>Professional Profile - There is All About me</p>
+            <div aria-label="Seção apenas de ilustrações de botões">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="my-services">
+            <ul aria-label="Navegação secundária">
+                <li>
+                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, incidunt!
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, incidunt!
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, incidunt!
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h3>SEO Analyst</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, incidunt!
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-medal"></i>
+                    <h3>Creative Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, incidunt!
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-palette"></i>
+                    <h3>UX/UI</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, incidunt!
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script> /* AQUI CHAMA O JAVASCRIPT */
+
 </body>
 
 </html>
